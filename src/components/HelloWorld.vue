@@ -92,6 +92,11 @@ export default {
   props: {
     msg: String,
   },
+  methods: {
+    onTestFromOutSide() {
+      console.log("access done");
+    },
+  },
 };
 </script>
 
